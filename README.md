@@ -24,15 +24,6 @@ Features:
 - Speichern der Ergebnisse
 - dedizierte und exakte Ausgabe der Ergebnisse / klassifizierten Objekte
 
-
-Todo's:
-------------------------
-- [ ] Modelltraining Objekterkennung initialisieren
-- [ ] Live Video Object Detection (LVOD) als standalone Webanwendung bauen 
-- [ ] LVOD effizienter & performanter machen (siehe Framerate)
-
-
-
 Quellen:
 ------------------------
 - Allgemeines zu Künstliche Intelligenz: https://de.wikipedia.org/wiki/K%C3%BCnstliche_Intelligenz
