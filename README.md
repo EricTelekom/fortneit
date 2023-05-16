@@ -101,7 +101,8 @@ Objekterkennung Konfigurationen
 
 Für das Modelltraining wird die selbe requirements-Datei genutzt, dabei ist zu beachten, dass auf der Trainingsmaschine CUDA und cuDNN (NVIDIA) installiert sein müssen, um effizientes Training über die Grafikkarte zu garantieren.
 
-Verzeichnisformatierung (Training Gesichtserkennung):<br>
+Verzeichnisformatierung (Training Gesichtserkennung):
+```
 yolov5
 ├── data
 │   └── gesicht.yaml
@@ -129,7 +130,7 @@ yolov5
 │           └── etc...
 ├── gesicht.pt
 └── detect.py
-        
+```
 ------------------------
 
 ## YOLOv5 Objekterkennung Glossar
