@@ -5,7 +5,7 @@
 
 [![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
 [![Language](https://img.shields.io/github/languages/top/EricTelekom/fortneit)]([https://www.google.de](https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Trollface_non-free.png/220px-Trollface_non-free.png))
-
+![Dependencies](https://img.shields.io/depfu/dependencies/github/EricTelekom/fortneit)
 #
 Projekt zur Bilderkennung und Klassifizierung von Bildern, Videos und eines Video-Feeds.
 
