@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <title>LVOD</title>
+  </head>
+  <body>
+    <div class="container">
+      <h3>Livestream</h3>
+      <img src="{{ url_for('output_video') }}" />
+    </div>
+  </body>
+
+  <style>
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    img {
+      max-height: 90vh;
+      max-width: 90vw;
+    }
+
+    * {
+      font-family: sans-serif;
+    }
+  </style>
+</html>
