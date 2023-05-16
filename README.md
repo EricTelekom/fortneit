@@ -12,6 +12,5 @@ Projekt zur Bilderkennung und Klassifizierung von Bildern, Videos und eines Vide
 
 ## Demo
 
-Insert gif or link to demo
 ![Demo](demo.gif)
 
