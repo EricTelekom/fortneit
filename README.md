@@ -102,29 +102,33 @@ Objekterkennung Konfigurationen
 Für das Modelltraining wird die selbe requirements-Datei genutzt, dabei ist zu beachten, dass auf der Trainingsmaschine CUDA und cuDNN (NVIDIA) installiert sein müssen, um effizientes Training über die Grafikkarte zu garantieren.
 
 Verzeichnisformatierung (Training Gesichtserkennung):<br>
-|-- yolov5 <br>
-&nbsp;&nbsp;&nbsp;&nbsp;|-- data <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- gesicht.yaml <br>
-&nbsp;&nbsp;&nbsp;&nbsp;|-- datasets <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- images <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- 01.jpg <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- 02.jpg <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- etc... <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- labels <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- 01.txt <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- 02.txt <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- etc... <br>
-&nbsp;&nbsp;&nbsp;&nbsp;|-- runs <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- train <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- exp01 <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- result.pt <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- detect <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- exp01 <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- 1.jpg <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- 2.jpg <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- etc... <br>
-&nbsp;&nbsp;&nbsp;&nbsp;|-- gesicht.pt <br>
-&nbsp;&nbsp;&nbsp;&nbsp;|-- detect.py <br>
+yolov5
+├── data
+│   └── gesicht.yaml
+├── datasets
+│   ├── images
+│   │   ├── 01.jpg
+│   │   ├── 02.jpg
+│   │   └── etc...
+│   └── labels
+│       ├── 01.txt
+│       ├── 02.txt
+│       └── etc...
+├── models
+│   ├── yolov5x.yaml
+│   ├── yolov5s.yaml
+│   └── etc.
+├── runs
+│   ├── train
+│   │   └── exp01
+│   │       └── result.pt
+│   └── detect
+│       └── exp01
+│           ├── 1.jpg
+│           ├── 2.jpg
+│           └── etc...
+├── gesicht.pt
+└── detect.py
         
 ------------------------
 
